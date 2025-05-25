@@ -142,7 +142,7 @@ nav ul li a:hover {
 .rvw {
   width: 100%;
   padding: 3rem 5rem;
-  background-color: rgb(91, 62, 44);
+  background-color: rgb(107, 74, 54);
 }
 .rvw h2 {
   font-size: 3.5rem;
@@ -166,11 +166,96 @@ nav ul li a:hover {
   padding: 2rem 1rem;
   color: rgb(58, 26, 7);
   border-radius: 1.2rem;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 20px 1px black;
 }
 .main-box p {
   text-align: center;
   padding-top: 1rem;
   color: rgb(46, 20, 3);
   font-weight: bolder;
+}
+/********** CONTACT US **********/
+.main-contact {
+  padding: 3rem 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.site h3 {
+  font-size: 2.5rem;
+  font-family: serif;
+}
+.site p {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  font-family: serif;
+  font-weight: bold;
+}
+.link-wrapup {
+  display: flex;
+  flex-direction: column;
+}
+.link-wrapup a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+.link-wrapup a:hover {
+  color: rgb(211, 158, 124);
+}
+.contact h3 {
+  font-size: 2.5rem;
+  font-family: serif;
+}
+.contact p {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  font-family: serif;
+  font-weight: bold;
+}
+.messages form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.messages form input,
+textarea {
+  padding: 0.6rem 1.5rem;
+  outline: none;
+  border-radius: 0.3rem;
+  background-color: rgb(211, 158, 124);
+  color: rgb(28, 17, 4);
+  font-size: 1rem;
+}
+.messages form input::placeholder {
+  color: rgb(19, 8, 1);
+}
+.messages form textarea::placeholder {
+  color: rgb(19, 8, 1);
+}
+.tel h1 {
+  font-size: 3rem;
+  color: azure;
+  padding-bottom: 2rem;
+}
+.info {
+  padding-bottom: 3rem;
+}
+.tel p {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  font-family: serif;
+  font-weight: bold;
+}
+.tel p:hover {
+  color: rgb(211, 158, 124);
+}
+.tel i {
+  margin-right: 1rem;
+  color: rgb(211, 158, 124);
 }
