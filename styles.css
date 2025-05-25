@@ -29,6 +29,7 @@ header h1 {
   font-family: monospace;
   font-size: 1.5rem;
   color: azure;
+  cursor: pointer;
 }
 .logo {
   color: white;
@@ -128,6 +129,7 @@ nav ul li a:hover {
   border-radius: 0.2rem;
   margin-top: 2rem;
   font-size: 1rem;
+  cursor: pointer;
   transition: 0.5s;
 }
 .abt button:hover {
@@ -139,16 +141,16 @@ nav ul li a:hover {
 /********** Review *********/
 .rvw {
   width: 100%;
-  padding: 4rem;
+  padding: 3rem 5rem;
   background-color: rgb(91, 62, 44);
 }
 .rvw h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-align: center;
   font-family: serif;
 }
 .rvw h5 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   font-family: serif;
   padding-bottom: 4rem;
@@ -161,9 +163,10 @@ nav ul li a:hover {
 }
 .main-box {
   background-color: rgb(211, 158, 124);
-  padding: 2rem;
+  padding: 2rem 1rem;
   color: rgb(58, 26, 7);
   border-radius: 1.2rem;
+  box-shadow: 0 0 10px black;
 }
 .main-box p {
   text-align: center;
