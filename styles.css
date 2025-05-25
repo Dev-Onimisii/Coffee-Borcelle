@@ -111,7 +111,7 @@ nav ul li a:hover {
   font-weight: bolder;
 }
 .abt-text h5 {
-  color: rgb(19, 8, 1);
+  color: rgb(58, 26, 7);
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
@@ -140,5 +140,36 @@ nav ul li a:hover {
 .rvw {
   width: 100%;
   padding: 4rem;
-  background-color: rgb(91, 62, 44);
+  background-color: rgb(93, 74, 62);
+}
+.rvw h2 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: serif;
+}
+.rvw h5 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: serif;
+  padding-bottom: 4rem;
+}
+.rvw-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.main-box {
+  background-color: rgb(211, 158, 124);
+  padding: 2rem;
+  color: rgb(58, 26, 7);
+  padding-bottom: 1.5rem;
+  border-radius: 1rem;
+}
+
+.main-box p {
+  text-align: center;
+  padding-top: 1rem;
+  color: rgb(46, 20, 3);
+  font-weight: bolder;
 }
