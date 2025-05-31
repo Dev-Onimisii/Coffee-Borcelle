@@ -261,5 +261,5 @@ textarea {
 }
 
 /* Starting the media query for the mobile device */
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
 }
