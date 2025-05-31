@@ -262,4 +262,7 @@ textarea {
 
 /* Starting the media query for the mobile device */
 @media (min-width: 768px) {
+  header {
+    display: none;
+  }
 }
