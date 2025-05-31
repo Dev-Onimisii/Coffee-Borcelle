@@ -264,5 +264,7 @@ textarea {
 @media (min-width: 768px) {
   header {
     display: none;
+    background-color: rgb(211, 158, 124);
+    color: rgb(19, 8, 1);
   }
 }
