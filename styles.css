@@ -302,25 +302,6 @@ textarea {
   }
   nav {
     display: none;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-  }
-  nav.open {
-    display: flex !important;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(35, 27, 22, 0.98);
-    padding: 4rem 2rem 2rem 2rem;
-    border-radius: 0;
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
-    transition: opacity 0.4s ease;
   }
   nav ul {
     flex-direction: column;
