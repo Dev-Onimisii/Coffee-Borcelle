@@ -299,4 +299,10 @@ textarea {
     margin: 0 auto;
     display: block;
   }
+  .abt {
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1rem;
+    align-items: center;
+  }
 }
