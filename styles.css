@@ -261,7 +261,7 @@ textarea {
 }
 
 /* Starting the media query for the mobile device */
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   header {
     width: 100%;
     margin: 0;
