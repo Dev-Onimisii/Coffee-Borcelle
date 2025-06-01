@@ -259,20 +259,39 @@ textarea {
   margin-right: 1rem;
   color: rgb(211, 158, 124);
 }
-
+#menu-toggle {
+  display: none;
+}
 /* Starting the media query for the mobile device */
 @media (max-width: 767px) {
   header {
     width: 100%;
     margin: 0;
-    margin-top: 1rem;
+    margin-top: 0;
     border-radius: 0;
-    flex-direction: column;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
     height: auto;
     padding: 1rem 0.5rem;
   }
+  header h1 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+  }
+  #menu-toggle {
+    display: block;
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
   nav {
-    margin-right: 0;
+    display: none;
   }
   nav ul {
     flex-direction: column;
@@ -290,7 +309,7 @@ textarea {
     width: 100%;
   }
   .home-text h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .home-img img {
     width: 100%;
@@ -298,6 +317,9 @@ textarea {
     max-width: 20rem;
     margin: 0 auto;
     display: block;
+  }
+  .home-img {
+    display: none;
   }
   .abt {
     flex-direction: column;
