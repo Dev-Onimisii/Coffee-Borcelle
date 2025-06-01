@@ -279,4 +279,14 @@ textarea {
     gap: 1rem;
     align-items: center;
   }
+  .home {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  .home-text {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
 }
