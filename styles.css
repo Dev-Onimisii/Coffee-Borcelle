@@ -337,4 +337,16 @@ textarea {
     width: 100%;
     gap: 1rem;
   }
+  .messages form input,
+  .messages form textarea {
+    width: 90vw;
+    font-size: 1rem;
+  }
+  .tel h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .tel p {
+    font-size: 1rem;
+  }
 }
