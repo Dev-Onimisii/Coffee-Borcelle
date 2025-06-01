@@ -316,4 +316,25 @@ textarea {
   .rvw {
     padding: 1rem;
   }
+  .rvw-box {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .main-contact {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+  .site h3,
+  .contact h3 {
+    font-size: 1.5rem;
+  }
+  .site p,
+  .contact p {
+    font-size: 1rem;
+  }
+  .messages form {
+    width: 100%;
+    gap: 1rem;
+  }
 }
