@@ -305,4 +305,15 @@ textarea {
     padding-top: 1rem;
     align-items: center;
   }
+  .abt-img img {
+    width: 90vw;
+    margin-left: 0;
+  }
+  .abt-text {
+    padding: 1rem;
+    text-align: center;
+  }
+  .rvw {
+    padding: 1rem;
+  }
 }
