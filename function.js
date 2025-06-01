@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     nav.style.width = "100vw";
     nav.style.height = "50%";
     nav.style.background = "rgba(35, 27, 22, 0.98)";
-    nav.style.padding = "4rem 2rem 2rem 2rem";
+    nav.style.padding = "4rem";
     nav.style.borderRadius = "0";
     nav.style.zIndex = "1000";
     nav.style.justifyContent = "center";
