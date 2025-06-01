@@ -289,4 +289,14 @@ textarea {
     text-align: center;
     width: 100%;
   }
+  .home-text h1 {
+    font-size: 2.5rem;
+  }
+  .home-img img {
+    width: 100%;
+    height: auto;
+    max-width: 20rem;
+    margin: 0 auto;
+    display: block;
+  }
 }
