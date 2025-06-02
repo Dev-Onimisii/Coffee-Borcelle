@@ -398,3 +398,24 @@ textarea {
     margin-left: 0.5rem;
   }
 }
+nav {
+  margin-right: 2rem;
+}
+nav ul {
+  gap: 1.2rem;
+}
+nav ul li {
+  font-size: 1.1rem;
+}
+.home {
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+.home-text {
+  margin-left: 2rem;
+  width: 60%;
+}
+.home-text h1 {
+  font-size: 3rem;
+}
