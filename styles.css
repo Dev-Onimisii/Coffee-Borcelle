@@ -433,3 +433,19 @@ nav ul li {
   width: 15rem;
   margin-left: 1rem;
 }
+.abt-text {
+  padding: 2rem;
+  text-align: left;
+}
+.abt-text h2 {
+  font-size: 2rem;
+}
+.abt-text h5 {
+  font-size: 1.2rem;
+}
+.rvw {
+  padding: 2rem 1rem;
+}
+.rvw h2 {
+  font-size: 2.2rem;
+}
