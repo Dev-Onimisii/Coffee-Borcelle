@@ -466,3 +466,16 @@ nav ul li {
   padding: 2rem 1rem;
   gap: 1.5rem;
 }
+.site h3,
+.contact h3 {
+  font-size: 1.5rem;
+}
+.site p,
+.contact p {
+  font-size: 1rem;
+}
+.messages form input,
+.messages form textarea {
+  width: 70vw;
+  font-size: 1rem;
+}
