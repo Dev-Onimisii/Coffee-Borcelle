@@ -479,3 +479,17 @@ nav ul li {
   width: 70vw;
   font-size: 1rem;
 }
+.tel h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.tel p {
+  font-size: 1rem;
+}
+#menu-toggle,
+#close-toggle {
+  display: none !important;
+}
+nav {
+  display: block !important;
+}
