@@ -419,3 +419,17 @@ nav ul li {
 .home-text h1 {
   font-size: 3rem;
 }
+.home-img img {
+  width: 18rem;
+  height: 18rem;
+}
+.abt {
+  flex-direction: row;
+  gap: 2rem;
+  padding-top: 2rem;
+  align-items: center;
+}
+.abt-img img {
+  width: 15rem;
+  margin-left: 1rem;
+}
