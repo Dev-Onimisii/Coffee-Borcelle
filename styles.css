@@ -130,7 +130,7 @@ nav ul li a:hover {
   margin-top: 2rem;
   font-size: 1rem;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .abt button:hover {
   border-radius: 0.2rem;
